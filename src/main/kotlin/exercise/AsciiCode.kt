@@ -1,4 +1,9 @@
 package exercise
 
-class AsciiCode {
+fun main() {
+    println("Enter a character")
+    val character = readLine()!!
+    println(character.chars())
+    val a = character.chars()
+
 }
